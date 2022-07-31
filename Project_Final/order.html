@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Angry Nerd Cafe :: Order</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="cafe.css">
+<meta name= "viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<div id="wrapper">
+<header>
+<h1>Angry Nerd Cafe</h1>
+</header>
+<nav>
+  <ul class="nav">
+	<li><a href="index.html">Home</a></li>
+	<li><a href="menu.html">Menu</a></li>
+	<li><a href="order.html" class="active">Order</a></li>
+	<li><a href="about.html">About Us</a></li>
+  </ul>
+</nav>
+<main>
+   <h2>Order</h2>
+	<p style="text-align: center; font-size: small;"><strong>* Please allow 15 - 20 minutes for your order to be ready.</strong></p>
+	<form style="text-align: center;" method="post">
+	<p style="text-align: center; font-size: 15px;"><strong>* Name:</strong> <input type="text" name="name" id="name" required="required">
+	<br><br><strong>* Phone:</strong> <input type="tel" name="phone" id="phone" required="required">
+	<br><br><strong>* E-mail:</strong> <input type="email" name="email" id="email" required="required">
+	<br>
+	<p style="text-align: center; font-size: 15px;"><select size="1" name="drink" id="drink">
+		<option>Select Your Coffee or Tea</option>
+		<option value="Espresso">Espresso</option>
+		<option value="Cold Brew">Cold Brew</option>
+		<option value="Toasted Coconut Latte">Toasted Coconut Latte</option>
+		<option value="Nitro Cold Brew">Nitro Cold Brew</option>
+		<option value="Honey Lemon Ginger Tea">Honey Lemon Ginger Tea</option>
+		<option value="Matcha Green Tea">Matcha Green Tea</option>
+		</select><br>
+  	<p style="text-align: center; font-size: 15px;"><select size="1" name="size" id="size">
+		<option>Select Your Size</option>
+		<option value="espresso">Espresso</option>
+		<option value="small">Small</option>
+		<option value="medium">Medium</option>
+		<option value="large">Large</option>
+		</select></p>
+	<p style="text-align: center; font-size: 15px;"><select size="1" name="bakery" id="bakery">
+		<option>Select Your Bakery Item</option>
+		<option value="none">None</option>
+		<option value="coffee cake">Coffee Cake</option>
+		<option value="old fashion donut">Old Fashion Donut</option>
+		<option value="plain bagel">Plain Bagel</option>
+		</select></p>
+ 	<p style="text-align: center; font-size: 15px;"><strong>Comments:</strong><br>
+		<textarea name="comments" id="comments" cols="40" rows="5"> Enter your comments here</textarea><br>
+		<input type="submit" value="Continue to Payment Options"></p>
+</form>
+</main>
+<footer >
+	Copyright &copy; 2021 Angry Nerd Cafe<br>
+	<a id="mobile" href="tele:888-555-5555">888-555-5555</a><a id="desktop">888-555-5555</a><br>
+	<a href="mainto:angrynerd@cafe.com">angrynerd@cafe.com</a><br>
+	<a style="font-size: 30px;" href="http://www.instagram.com/angrynerdcafe" class="fa fa-instagram"></a>
+	<a style="font-size: 30px;" href="http://www.facebook.com/angrynerdcafe" class="fa fa-facebook"></a>
+	<a style="font-size: 30px;" href="http://www.twitter.com/angrynerdcafe" class="fa fa-twitter"></a>
+</footer>
+</div>
+</html>
